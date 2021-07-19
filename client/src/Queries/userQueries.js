@@ -32,3 +32,11 @@ export const GET_USERS = gql`
     }
   }
 `;
+
+export const FAKE_Q = gql`
+  query GetFake {
+    users {
+      id
+    }
+  }
+`;

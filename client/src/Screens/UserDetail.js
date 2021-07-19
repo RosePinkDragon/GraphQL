@@ -12,6 +12,7 @@ const UserDetail = () => {
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error Looking for the user</p>;
+  if (error) console.log(error);
 
   console.log(data);
   return (
